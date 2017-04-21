@@ -21,3 +21,9 @@ User accounts, favorites, sharing and notifications
 
 ### Phase 3
 User submitted data - allowing users to submit new nuptial flight sitings
+
+### How to setup this project?
+1. download
+2. go to folder "frontend"
+3. in console: npm install
+4. in console: ionic serve
