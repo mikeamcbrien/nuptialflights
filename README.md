@@ -1,4 +1,5 @@
 # Nuptial Flights
+
 Home of the NuptialFlights.com ant flight finder.
 
 ## Goals
@@ -20,5 +21,3 @@ User accounts, favorites, sharing and notifications
 
 ### Phase 3
 User submitted data - allowing users to submit new nuptial flight sitings
-
-
