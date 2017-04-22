@@ -1,12 +1,27 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>Home</ion-title>
+  <ion-navbar [color]="'primary'">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      Home
+    </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  <h2>Ants Nupital Flights! (ANF)</h2>
-  <p>
-    So, it is testing page
-  </p>
+  <ion-searchbar></ion-searchbar>
+
+  <ion-card *ngFor="let item of dataflights">
+  <img src="{{item.img}}"/>
+  <ion-card-content>
+    <ion-card-title>
+      Now flighting: <b>{{item.name}}</b>!
+      </ion-card-title>
+    <p>
+      {{item.text}}
+    </p>
+  </ion-card-content>
+  </ion-card>
+
 </ion-content>
